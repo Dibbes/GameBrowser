@@ -240,10 +240,10 @@ namespace GameBrowser.Resolvers
                     return new[] { ".disc", ".iso" };
 
                 case "Xbox 360":
-                    return new[] { ".disc" };
+                    return new[] { ".disc", ".iso", ".000" };
 
                 case "Xbox One":
-                    return new[] { ".disc" };
+                    return new[] { ".disc", ".iso", ".000" };
 
                 case "Neo Geo":
                     return new[] { ".zip", ".iso" };
@@ -282,10 +282,10 @@ namespace GameBrowser.Resolvers
                     return new[] { ".disc", ".wud" };
 
                 case "DOS":
-                    return new[] { ".gbdos", ".disc" };
+                    return new[] { ".gbdos", ".disc", ".iso", ".zip" };
 
                 case "Windows":
-                    return new[] { ".gbwin", ".disc" };
+                    return new[] { ".gbwin", ".disc", ".iso", ".bin" };
 
                 case "Sega 32X":
                     return new[] { ".iso", ".bin", ".img", ".zip", ".32x" };
@@ -318,10 +318,10 @@ namespace GameBrowser.Resolvers
                     return new[] { ".iso", ".bin" };
 
                 case "PS3":
-                    return new[] { ".disc" };
+                    return new[] { ".disc", ".iso" };
 
                 case "PS4":
-                    return new[] { ".disc" };
+                    return new[] { ".disc", ".iso" };
 
                 case "PSP":
                     return new[] { ".iso", ".cso" };
